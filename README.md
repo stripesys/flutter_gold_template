@@ -93,31 +93,7 @@ To create a robust, scalable, and highly configurable Flutter Gole Template desi
  - Triggering fake errors.
 
 4. **Proposed Folder Structure (Feature-Based)**
-
-lib/
-├── core/
-│   ├── constants/
-│   ├── errors/
-│   ├── helpers/
-│   ├── services/ (ServiceRegistry, AppStartupManager)
-│   ├── theme/
-│   └── utils/
-├── features/
-│   ├── authentication/
-│   ├── profile/
-│   ├── settings/
-│   └── ... (other features)
-├── data/
-│   ├── datasources/ (local, remote)
-│   ├── models/
-│   └── repositories/
-├── domain/
-│   ├── entities/
-│   ├── repositories/
-│   └── usecases/
-└── presentation/
-    ├── widgets/ (common reusable widgets)
-    └── ... (other global presentation items)
+CLEAN Architecture, RiverPod, GetIt
 
 5. **Implementation & Delivery Phases**
 Phase 1: Foundation (Week 1-2): Flavors, Build System, Core Framework Init, Service Registry, Routing, Theming.
